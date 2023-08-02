@@ -3,7 +3,7 @@ use std::collections::HashMap;
 fn main() {
     let n = 1001;
 
-    let mut units = HashMap::from([
+    let units = HashMap::from([
         (0, ""),
         (1, "one"),
         (2, "two"),
